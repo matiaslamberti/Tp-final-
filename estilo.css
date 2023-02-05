@@ -1,4 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Secular+One&display=swap'); 
 *{
     margin: 0;
     padding: 0;
+}
+
+.cabecera{
+    background-color: cadetblue;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.primerTitulo{
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+.navegacion{
+    font-size: 15px;
+    margin-top: 8px; 
+}
+
+.introduccion{
+
+    background-color: slateblue;
+    padding: 190px 0;
+}
+
+.aboutMe{
+    background-color: cornsilk;
+    padding: 60px 0;
+}
+
+.whatIDo{
+    background-color: darkkhaki;
+    padding: 200px 0;
+}
+
+.resume{
+    background-color: aquamarine;
+    padding: 350px 0;
+}
+
+.portfolio{
+    background-color: darkgrey;
+    padding: 350px 0;
+}
+
+.piepagina{
+    background-color: darksalmon;
+    padding: 150px 0;
 }
