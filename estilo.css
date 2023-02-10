@@ -172,6 +172,14 @@
     padding: 200px 0;
 }
 
+.contenedorIconosYtexto img{
+    width: 90px;
+    color: deepskyblue;
+    
+    
+   
+}
+
 .resume{
     background-color: aquamarine;
     padding: 350px 0;
