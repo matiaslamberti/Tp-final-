@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito+Sans:wght@200&family=Nunito:wght@600&family=Secular+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@300&family=Nunito+Sans:wght@200&family=Nunito:wght@600&family=Roboto:wght@700&family=Secular+One&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-
+/* INICIO CABECERA */
 .cabecera{
     background-color: white;
     padding: 15px 0;
@@ -32,19 +31,20 @@
     margin-right: 12px;
     color:#4D555A
 }
-
+/*FIN CABECERA */
 .introduccion{
 
     background-color:deepskyblue;
     padding: 190px 0;
     display: flex;
     align-items: top;
-    margin: 0 auto;
+    
     
 }
 
 
 .textoIntroduccion{
+    margin-left: auto;
     
 }
 
@@ -54,22 +54,22 @@
    
 }
 .textoIntroduccion h1{
-    font-size: 100px;
+    font-size: 75px;
     font-family: 'Secular One', sans-serif;
 
 }
 .textoIntroduccion p{
-    font-size: 25px;
+    font-size: 30px;
     
 }
 
 .miImagen{    
-     
+   
      
 }
 
 .miImagen img{
-    width: 25%;
+    width: 30%;
     border-radius: 50%;
     padding: 11px;
     background-color: aliceblue;
@@ -86,22 +86,87 @@
 }
 
 .aboutMe{
-    background-color: cornsilk;
+    background-color: white;
     padding: 60px 0;
-   
     
 }
+
 .aboutMeTitulo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.aboutMeTitulo p{
+    background-color: deepskyblue;
+    font-size: 20px;
+}
+
+.aboutMeTitulo h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .textoAboutMe{
    display: flex;
    flex-direction: column;
+   font-size: 25px;
+   
 }
 
+.textoAboutMe h1{
+    font-size: 40px;
+    color: #212529;
+    font-family: 'Barlow', sans-serif; 
+}
+.nombreAboutMe{
+    font-size: 40px;
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline deepskyblue;
+}
+
+.pAboutMe{
+    font-family: 'Barlow', sans-serif; 
+}
+
+.logoExperiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 50px;
+    
+}
+
+.logoExperiencia img{
+    width: 180px;
+    margin-right: 68px;
+}
+.logoExperiencia h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.DATOS{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 5%;
+}
+.DATOS a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.pDatos{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #6D767E;
+}
+.pDatos2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
 .whatIDo{
     background-color: darkkhaki;
     padding: 200px 0;
