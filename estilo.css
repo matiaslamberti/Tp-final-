@@ -173,21 +173,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
     
 }
 
 .parrafoQuepuedoHacer{
     font-size: 16px;
     margin-bottom: 15px;
-    font-family: 'Poppins', sans-serif;
     background-color: deepskyblue;
 }
 
 .h1QuePuedoHacer{
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 35px; 
 }
-
 
 
 .contenedorIconosYtexto{
@@ -212,6 +210,38 @@
 .resume{
     background-color: aquamarine;
     padding: 350px 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.tituloResume{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+
+.parrafoResume{
+    font-size: 16px;
+}
+
+.h1Resume{
+    font-size: 35px;
+}
+
+.educacionExperiencia{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.educacion, .experienciaResume{
+    width: 450px;
+    padding-top: 100px;
+    padding-left: 80px;
+    margin-left: 50px;
 }
 
 .portfolio{
