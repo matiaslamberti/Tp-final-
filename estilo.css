@@ -208,7 +208,7 @@
 }
 
 .resume{
-    background-color: aquamarine;
+    background-color: #faffff;
     padding: 350px 0;
     font-family: 'Poppins', sans-serif;
     
@@ -218,16 +218,26 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     
     
 }
 
 .parrafoResume{
     font-size: 16px;
+    background-color: deepskyblue;
 }
 
 .h1Resume{
-    font-size: 35px;
+    font-size: 40px;
+}
+
+.h1edu{
+    font-size: 30px;
+}
+
+.h1exp{
+    font-size: 30px;
 }
 
 .educacionExperiencia{
@@ -236,12 +246,34 @@
     
    
 }
+.educacionExperiencia hr{
+    margin-top: 17px;
+}
+
+.educacionExperiencia h2{
+    margin-top: 17px;
+    
+}
+
+.educacionExperiencia p{
+    margin-top: 10px;
+}
 
 .educacion, .experienciaResume{
     width: 450px;
     padding-top: 100px;
     padding-left: 80px;
     margin-left: 50px;
+}
+
+.bordeEducacion{
+    border-left: solid 3px deepskyblue;
+    padding-left: 13px;  
+}
+
+.bordeExperiencia{
+    border-left: solid 3px deepskyblue;
+    padding-left: 13px;  
 }
 
 .portfolio{
