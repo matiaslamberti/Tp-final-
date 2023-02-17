@@ -422,6 +422,26 @@
 .portfolio{
     background-color: darkgrey;
     padding: 350px 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.parrafoytituloPortfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyectosPortfolio{
+    display: flex;
+    justify-content: center;
+}
+
+.proyectosPortfolio p{
+    margin-left: 20px;
+    margin-top: 45px;
+    font-size: 15px;
+
 }
 
 .piepagina{
