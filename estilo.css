@@ -406,6 +406,7 @@
     height: 50px;
     background-color: #faffff;
     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
     border: solid black 2px;
     cursor: pointer;
     transition: .5;
