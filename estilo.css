@@ -33,57 +33,64 @@
 }
 /*FIN CABECERA */
 .hero{
-
-    background-color:deepskyblue;
-    padding-top: 190px;
-    padding-bottom: 190px;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    
-    
+    background-color:deepskyblue;
+    font-family: 'Poppins', sans-serif;
+    padding: 150px 0;
+}
+.textoHero, .miImagen{
+    width: 500px;
 }
 
-
 .textoHero{
-    padding-left: 350px;
-    
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .textoHero h2{
     font-size: 40px;
-    font-family: 'Nunito Sans', sans-serif;
    
 }
 .textoHero h1{
-    font-size: 75px;
-    font-family: 'Secular One', sans-serif;
-
+    font-size: 77px;
 }
 .textoHero p{
     font-size: 30px;
     
 }
 .miImagen{
-    padding-left: 150px;
+   margin-left: 100px;
 }
 
 .miImagen img{
-    width: 50%;
+    width: 75%;
     border-radius: 50%;
     padding: 11px;
     background-color: aliceblue;
+    filter: grayscale(100%);
     
 }
 
 .botonIntro{
     width: 210px;
     height: 55px;
-    font-size: 20px;
+    font-size: 19px;
     color: white;
     background-color: black;
-    margin-top: 20px;
+    margin-top: 30px;
+    border: solid black 1px;
 }
 
+.contenedorBotonYA i{
+    margin-left: 15px;
+}
+
+.contactame{
+    color: black;
+    margin-left: 40px;
+}
 .aboutMe{
     background-color: #faffff;
     padding: 60px 0;
@@ -534,6 +541,9 @@ label{
     color: #4D555A;
 }
 
+.buttonComoTePuedoAyudar{
+    margin-top: 4px;
+}
 .buttonComoTePuedoAyudar button{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
