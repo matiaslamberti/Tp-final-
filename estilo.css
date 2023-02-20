@@ -27,7 +27,7 @@
     margin-left: 20px;
 }
 
-.contenedorIconos i{
+.contenedorIconos a{
     margin-right: 12px;
     color:#4D555A
 }
@@ -548,7 +548,7 @@ label{
     margin-top: 50px;
 }
 
-.contenedorIconosFooter i{
+.contenedorIconosFooter a{
     margin: 6px;
     font-size: 20px;
     color: #4D555A;
