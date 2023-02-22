@@ -305,9 +305,9 @@
 .h1skills{
     display: flex;
     justify-content: center;
-    width: 600px;
+    width: 800px;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 50px;
     padding-top: 70px; 
 }
 .skillPorcentaje{
